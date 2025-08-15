@@ -7,7 +7,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-</head>
+    <style>
+      h1{
+        font-family: Verdana;
+        color: #1b7a43;
+      }
+      h2{
+        font-family: verdana;
+        color: #36955e
+      }
+      h3{
+        font-family: verdana;
+        color: #08196f;
+      }
+      table{
+        width: 90%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        font-family: Verdana;
+      }
+      th,td{
+        border: 1px solid #000000;
+        padding: 8px 12px;
+        text-align: center;
+      }
+      th{
+        background-color: rgb(227, 196, 154);
+      }
+      tr{
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
 <body>
 
 <!-- Navbar -->
@@ -45,6 +76,7 @@
 <section id="inicio" class="p-4">
   <div class="container">
     <h1 class="text-center mb-4">Energía solar</h1>
+    <!-- **** INSERTAR IMAGAGEN DE ENERGIA SOLAR-->
     <p> La energía solar es la energía electromagnética emitida por el Sol, principalmente en forma de radiación visible, infrarroja y ultravioleta, que llega a la superficie terrestre y puede ser aprovechada mediante tecnologías de conversión directa o indirecta. Esta energía se mide como irradiancia solar (potencia por unidad de área, en W/m²) y constituye la fuente primaria de casi todos los procesos energéticos naturales en la Tierra, incluyendo el clima, la fotosíntesis y el ciclo hidrológico.
     </p>
     <p>Se puede transformar en:</p>
@@ -58,11 +90,46 @@
 
     <h3 class="mb-4"> Regiones con mayor potencial </h3>
       <p>Colombia es un país óptimo para el uso de paneles solares debido a su ubicación geográfica privilegiada en la zona ecuatorial, lo que le permite recibir altos niveles de radiación solar durante todo el año, con promedios entre 4,5 y 6,5 kWh/m²/día, superiores al promedio mundial. Esta abundante disponibilidad de recurso solar hace viable y eficiente la instalación de sistemas fotovoltaicos en gran parte del territorio nacional. Además, Colombia cuenta con amplias zonas rurales y territorios no interconectados que pueden beneficiarse significativamente del acceso a energía limpia y descentralizada mediante paneles solares. </p>
-    <img src="" alt="">
+    <!--**** IMAGEN DEL MAPA DE COLOMBIA CON LAS ZONAS-->
       <h3 class="mb-4">Proyectos actuales o en desarrollo.</h3>
       <p>Colombia ha avanzado significativamente en energía solar en los últimos años, especialmente a partir de la implementación de la Ley 1715 de 2014, la cual promueve el uso de fuentes no convencionales de energía, como la solar, a través de incentivos tributarios, exenciones arancelarias y beneficios para la inversión. Gracias a esta ley y a las subastas de energías renovables realizadas en 2019 y 2021, se han impulsado múltiples proyectos solares a gran escala.  </p>
-  
+    <h3 class="mb-4"> Proyectos destacados</h3>
+    <table>
+      <caption> Proyectos destacados a nivel nacional</caption>
+      <thead>
+        <tr>
+          <th>Proyecto</th>
+          <th>Ubicación</th>
+          <th>Capacidad</th>
+          <th>Empresa</th>
+          <th>Estado operativo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> Parque Solar Guajira I</td>
+          <td>La Guajira</td>
+          <td>100</td>
+          <td>Enel Green Power</td>
+          <td>Activo desde 2022</td>
+        </tr>
+        <tr>
+          <td>Parque Solar Bosque de los Llanos</td>
+          <td>Meta</td>
+          <td>87.1</td>
+          <td>Matrix Renewables Colombia S.A.S.</td>
+          <td>Activo desde 2020</td>
+        </tr>
+        <tr>
+          <td>Parque Solar El Paso</td>
+          <td>Cesar</td>
+          <td>86.2</td>
+          <td>Enel Green Power</td>
+          <td>En operación desde 2018</td>
+        </tr>
+      </tbody>
 
+    </table>
 
     <!-- Footer -->
 <footer class="text-center p-3 bg-dark text-white">
