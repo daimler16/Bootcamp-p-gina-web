@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+:root {
+    --verde: #2e7d32;
+    --azul: #1565c0;
+    --amarillo: #fdd835;
+}
+.navbar {
+    background-color: var(--azul) !important;
+}
+h1, h2 {
+    color: var(--verde);
+}
