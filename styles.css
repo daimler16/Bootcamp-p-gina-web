@@ -1,14 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 :root {
-    --verde: #2e7d32;
-    --azul: #1565c0;
-    --amarillo: #fdd835;
+  --verde: #2e7d32;
+  --azul: #1565c0;
+  --amarillo: #fdd835;
 }
 .navbar {
-    background-color: var(--azul) !important;
+  background-color: var(--azul) !important;
 }
-h1, h2 {
-    color: var(--verde);
+h1,
+h2 {
+  color: var(--verde);
+}
+h1 {
+  font-family: Verdana;
+  color: #1b7a43;
+}
+h2 {
+  font-family: verdana;
+  color: #36955e;
+}
+h3 {
+  font-family: verdana;
+  color: #08196f;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Verdana;
+}
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px 12px;
+  text-align: center;
+}
+th {
+  background-color: rgb(227, 196, 154);
+}
+tr {
+  background-color: cornsilk;
 }
