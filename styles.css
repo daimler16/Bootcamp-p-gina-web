@@ -70,3 +70,51 @@ footer{
   font-size: verdana;
   color: #9e8989;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.equipo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+.miembro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.miembro img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.info {
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.amarillo { background-color: #f69e33; }
+.azul { background-color: #2f64c4; }
+.verde { background-color: #2ab84a; }
+
+.cargo {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
