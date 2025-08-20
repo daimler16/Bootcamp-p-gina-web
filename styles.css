@@ -106,3 +106,10 @@ footer{
   flex-grow: 1;
   margin-bottom: 1rem;
 }
+.carousel-inner img {
+  width: 600px;         /* Ancho fijo */
+  height: 350px;        /* Alto fijo */
+  object-fit: cover;    /* Recorta sin deformar */
+  margin: 0 auto;       /* Centra la imagen */
+  border-radius: 8px;   /* Opcional: bordes redondeados */
+}
