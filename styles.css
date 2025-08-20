@@ -1,108 +1,140 @@
-.body {
+body {
   font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
 }
+
 :root {
   --verde: #2e7d32;
   --azul: #1565c0;
   --amarillo: #fdd835;
 }
+
 .navbar {
   background-color: var(--azul) !important;
 }
+
 h1,
 h2 {
   color: var(--verde);
 }
+
 h1 {
   font-family: Verdana;
   color: #1b7a43;
 }
+
 h2 {
-  font-family: verdana;
+  font-family: Verdana;
   color: #36955e;
 }
+
 h3 {
-  font-family: verdana;
+  font-family: Verdana;
   color: #08196f;
 }
+
 table {
   width: 90%;
   border-collapse: collapse;
   margin: 20px auto;
   font-family: Verdana;
 }
+
 th,
 td {
   border: 1px solid #000000;
   padding: 8px 12px;
   text-align: center;
 }
+
 th {
   background-color: rgb(227, 196, 154);
 }
+
 tr {
   background-color: cornsilk;
 }
-footer{
+
+/* Footer */
+footer {
   background-color: #050000;
-  color: #ffffff;  
-  padding: 40px 20 px 15 px;
-  font-family: verdana;
+  color: #ffffff;
+  padding: 40px 20px 15px;
+  font-family: Verdana;
 }
-.footercontenido{
+
+.footercontenido {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: auto;
 }
-.footercolumna{
+
+.footercolumna {
   flex: 1;
   min-width: 220px;
   margin: 10px 20px;
 }
 
-.footerboton{
+.footerboton {
   border-top: 1px solid #aaa;
   text-align: center;
   margin-top: 20px;
   padding-top: 12px;
-  font-size: verdana;
+  font-size: 14px;
   color: #9e8989;
 }
-.card {
-  height: 100%; /* Para que todas las tarjetas llenen el contenedor */
+
+/* Sección equipo */
+.equipo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+.miembro {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
+  align-items: center;
+  width: 220px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-.card-img-top {
-  height: 180px; /* Altura fija para todas las imágenes */
-  object-fit: cover; /* Recorta sin deformar */
-  width: 100%;
+.miembro img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
-.card-body {
-  flex-grow: 1;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.info {
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }
 
-.card-title {
-  font-weight: bold;     /* Negrilla */
-  color: #28a745;        /* Verde Bootstrap (puedes cambiarlo por otro tono si prefieres) */
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+.amarillo {
+  background-color: #f69e33;
 }
 
-.card-text {
-  font-size: 0.9rem;
-  flex-grow: 1;
-  margin-bottom: 1rem;
+.azul {
+  background-color: #2f64c4;
+}
+
+.verde {
+  background-color: #2ab84a;
+}
+
+.cargo {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
 }
