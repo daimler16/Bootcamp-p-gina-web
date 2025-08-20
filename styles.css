@@ -3,8 +3,16 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
+
+  /* 👇 Flex para empujar el footer al final */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+main {
+  flex: 1; /* 👈 ocupa todo el espacio disponible */
+}
 :root {
   --verde: #2e7d32;
   --azul: #1565c0;
@@ -76,8 +84,8 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: auto;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .footercolumna {
@@ -90,7 +98,7 @@ footer {
   border-top: 1px solid #aaa;
   text-align: center;
   margin-top: 20px;
-  padding-top: 12px;
+  padding-top: 0;
   font-size: 14px;
   color: #9e8989;
 }
