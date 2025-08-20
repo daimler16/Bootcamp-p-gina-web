@@ -2,13 +2,17 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fff;
   margin: 0;
-  padding: 20px;
+  padding: 0;
 }
 
 :root {
   --verde: #2e7d32;
   --azul: #1565c0;
   --amarillo: #fdd835;
+}
+
+section, footer, .container {
+  padding: 20px; /* 👈 solo aplicamos padding al contenido */
 }
 
 .navbar {
