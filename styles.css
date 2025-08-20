@@ -1,4 +1,4 @@
-body {
+.body {
   font-family: Arial, sans-serif;
 }
 :root {
@@ -70,51 +70,39 @@ footer{
   font-size: verdana;
   color: #9e8989;
 }
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  margin: 0;
-  padding: 20px;
-}
-
-.equipo {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px 20px;
-  justify-items: center;
-  align-items: start;
-}
-
-.miembro {
+.card {
+  height: 100%; /* Para que todas las tarjetas llenen el contenedor */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 220px;
-  box-sizing: border-box;
-  text-align: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.miembro img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 15px;
+.card-img-top {
+  height: 180px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Recorta sin deformar */
+  width: 100%;
 }
 
-.info {
-  border-radius: 15px;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
+.card-body {
+  flex-grow: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.amarillo { background-color: #f69e33; }
-.azul { background-color: #2f64c4; }
-.verde { background-color: #2ab84a; }
+.card-title {
+  font-weight: bold;     /* Negrilla */
+  color: #28a745;        /* Verde Bootstrap (puedes cambiarlo por otro tono si prefieres) */
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 
-.cargo {
-  display: block;
-  font-size: 14px;
-  font-weight: normal;
+.card-text {
+  font-size: 0.9rem;
+  flex-grow: 1;
+  margin-bottom: 1rem;
 }
