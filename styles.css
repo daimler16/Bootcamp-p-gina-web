@@ -70,3 +70,40 @@ footer{
   font-size: verdana;
   color: #9e8989;
 }
+
+.card {
+  height: 100%; /* Para que todas las tarjetas llenen el contenedor */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 180px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Recorta sin deformar */
+  width: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: bold;     
+  color: #28a745;    
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
