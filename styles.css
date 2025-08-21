@@ -229,3 +229,89 @@ footer {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 60, 255, 0.819);
 }
+/* --- Página Energía Solar --- */
+
+/* Secciones más limpias y con aire */
+#inicio .container {
+  max-width: 1000px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+/* Titulares */
+#inicio h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+#inicio h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+
+#inicio h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Párrafos */
+#inicio p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+/* Listas */
+#inicio ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.2rem;
+}
+#inicio ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* Tablas */
+#inicio table {
+  width: 100%;
+  margin: 25px auto;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+#inicio th {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: bold;
+}
+
+#inicio tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+#inicio tr:hover {
+  background-color: #f1f8e9;
+  transition: 0.3s;
+}
+
+/* Imagen de cabecera */
+.header-image {
+  max-height: 450px;
+  object-fit: cover;
+  border-bottom: 5px solid #2e7d32;
+}
+
+/* Capciones */
+#inicio caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+}
+.container {
+  max-width: 1800px;
+}
