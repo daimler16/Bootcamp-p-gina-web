@@ -231,7 +231,7 @@ footer {
 }
 
 /* juego */
-<style>
+
     /* Estilos para el juego de parejas - CORREGIDO */
     #parejas {
         display: grid;
@@ -319,4 +319,3 @@ footer {
             font-size: 0.6rem;
         }
     }
-</style>
