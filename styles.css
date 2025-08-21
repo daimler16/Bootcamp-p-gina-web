@@ -496,3 +496,32 @@ footer {
   z-index: 2;
 }
 /* cierratitulo sobre la foto */
+
+/* Asegurar que el menú siempre quede encima */
+.dropdown-menu {
+  position: absolute;
+  z-index: 1050; /* más alto que el overlay y la imagen */
+}
+
+/* La cabecera y overlay deben estar detrás */
+.header-image-container,
+.header-image,
+.overlay {
+  position: relative;
+  z-index: 0;
+}
+.navbar {
+  position: relative;
+  z-index: 2000; /* valor alto para sobrepasar la imagen y overlay */
+}
+
+.dropdown-menu {
+  z-index: 2001; /* un poco más alto que la navbar misma */
+}
+
+/* Y la cabecera queda detrás */
+.header-image-container,
+.header-image,
+.overlay {
+  z-index: 0 !important;
+}
