@@ -26,6 +26,14 @@ section,  .container {
 .navbar {
   background-color: var(--azul) !important;
 }
+/* Estilo para la imagen de cabecera */
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  }
 
 h1,
 h2 {
