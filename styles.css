@@ -42,7 +42,7 @@ h2 {
 
 h1 {
   font-family: Verdana;
-  color: #1b7a43;
+  color: #36955e;
 }
 
 h2 {
@@ -187,7 +187,7 @@ footer {
 
 .card-title {
   font-weight: bold;     /* Negrilla */
-  color: #28a745;        /* Verde Bootstrap (puedes cambiarlo por otro tono si prefieres) */
+  color: #31b160;       /* Color titulo de noticias */
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
@@ -200,17 +200,10 @@ footer {
 /* NUEVA PÁGINA */
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #1a73e8, #00c9a7, #6d6dfc);
+  background: linear-gradient(135deg, #7370ff, #85f581, #fdf275);
   background-size: 600% 600%;
-  animation: gradientBG 12s ease infinite;
   color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-}
-
-@keyframes gradientBG {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
+  text-shadow: 1px 1px 4px rgba(0, 60, 255, 0.819);
 }
 
 /* Cards de noticias */
@@ -230,4 +223,9 @@ footer {
 }
 .navbar.scrolled {
   background: rgba(0, 0, 0, 0.9) !important;
+}
+
+#tituloprincipal {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 60, 255, 0.819);
 }
