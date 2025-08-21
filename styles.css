@@ -189,3 +189,37 @@ footer {
   flex-grow: 1;
   margin-bottom: 1rem;
 }
+/* NUEVA PÁGINA */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #1a73e8, #00c9a7, #6d6dfc);
+  background-size: 600% 600%;
+  animation: gradientBG 12s ease infinite;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* Cards de noticias */
+.noticia-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.noticia-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Navbar */
+.navbar {
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.7) !important;
+  transition: background 0.3s;
+}
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.9) !important;
+}

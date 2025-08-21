@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transición Energética Justa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Transición Energética</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Energías
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="es.html">Energía solar</a></li>
+              <li><a class="dropdown-item" href="ee.html">Energía eólica</a></li>
+              <li><a class="dropdown-item" href="bc.html">Biocombustible</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="qs.html">¿Quiénes somos?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="container" data-aos="fade-up">
+      <h1 class="display-3 fw-bold">Transición Energética Justa</h1>
+      <p class="lead">Un camino hacia un futuro sostenible con energías limpias</p>
+      <a href="#inicio" class="btn btn-lg btn-light rounded-pill mt-3">Explorar <i class="bi bi-arrow-down"></i></a>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <section id="inicio" class="p-5 bg-light">
+      <div class="container" data-aos="fade-right">
+        <h2 class="text-center mb-4">¿Por qué es importante?</h2>
+        <p class="text-center">La transición energética es el proceso de cambiar los combustibles fósiles por energías renovables más limpias. Es una de las claves para combatir el cambio climático y asegurar un futuro sostenible.</p>
+      </div>
+    </section>
+
+    <!-- Noticias -->
+    <section id="noticias" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Últimas Noticias</h2>
+        <div class="row g-4">
+          <div class="col-md-3" data-aos="zoom-in">
+            <div class="card shadow-sm noticia-card h-100">
+              <img src="imagenes_proyecto/Noticia1.jpg" class="card-img-top" alt="Noticia 1">
+              <div class="card-body">
+                <h5 class="card-title">Inversión de $921 mil millones</h5>
+                <p class="card-text">Nuevos proyectos de energía en 209 municipios.</p>
+                <a href="#" class="btn btn-outline-success">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card shadow-sm noticia-card h-100">
+              <img src="imagenes_proyecto/Noticia2.jpg" class="card-img-top" alt="Noticia 2">
+              <div class="card-body">
+                <h5 class="card-title">Eólica costa afuera</h5>
+                <p class="card-text">Nueva normativa para energías limpias.</p>
+                <a href="#" class="btn btn-outline-success">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card shadow-sm noticia-card h-100">
+              <img src="imagenes_proyecto/Noticia3.png" class="card-img-top" alt="Noticia 3">
+              <div class="card-body">
+                <h5 class="card-title">Movilidad sostenible</h5>
+                <p class="card-text">Todos los vehículos en Colombia ya usan biocombustible.</p>
+                <a href="#" class="btn btn-outline-success">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card shadow-sm noticia-card h-100">
+              <img src="imagenes_proyecto/Noticia4.jpg" class="card-img-top" alt="Noticia 4">
+              <div class="card-body">
+                <h5 class="card-title">Auto híbrido colombiano</h5>
+                <p class="card-text">Toyota presenta vehículo con bioetanol de caña.</p>
+                <a href="#" class="btn btn-outline-success">Leer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-white bg-dark p-4">
+    <div class="container">
+      <p class="mb-2">© 2025 Proyecto Talento Tech - Todos los derechos reservados</p>
+      <div>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="mailto:lucastillod@unal.edu.co" class="text-white"><i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
