@@ -405,3 +405,94 @@ footer {
             font-size: 0.6rem;
         }
     }
+/* sobre */
+.header-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Capa oscura encima de la imagen */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* sombra elegante */
+  z-index: 1;
+}
+
+/* Texto centrado */
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #c0ffd4;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  z-index: 2;
+}
+
+/* recuadros del título en divisiones de solar */
+.titulo-recuadro { 
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  margin: 20px auto 30px;  /* arriba | lados | abajo */
+}
+
+.titulo-recuadro h2 {
+  padding: 12px 25px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  font-weight: 700;
+  color: #2e7d32; /* verde más elegante */
+}
+
+/* titulo sobre la foto */
+.header-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Capa oscura encima de la imagen */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* sombra elegante */
+  z-index: 1;
+}
+
+/* Texto centrado */
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  z-index: 2;
+}
+/* cierratitulo sobre la foto */
